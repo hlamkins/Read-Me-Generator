@@ -1,6 +1,12 @@
 const inquirer = require('inquirer');
+const fs = require('fs');
+const util = require('util');
+const generateMarkdown = require(".utils/generateReadme");
 
-inquirer.prompt([
+const writeFileAsync = util.promisify(fs.writeFile);
+
+const promptUser = () =>
+return inquirer.prompt([
     {
         type: "input",
         name: "title",
@@ -48,11 +54,21 @@ inquirer.prompt([
         message: "What is your email address?"
     },
 ]);
+   
+async function init() {
+    try {
+        const answers = await promptUser();
+        const generateContent = generateReadme(answers);
+        await writeFileAsync('./dist/README.md', generateContent);
+        console.log('Sucessfully wrote to README.md');
+    }
+    catch(err) {
+        console.log('There were issues writing to README.md')
+    }
+}
+
+init();
 
 
-// .then(response => {
 
-// });
-// .catch(err => {
-
-// });
+ 
