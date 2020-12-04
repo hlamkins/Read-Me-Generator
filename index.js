@@ -41,7 +41,7 @@ function promptUser(){
         {
             type: "input",
             name: "contribution",
-            message: "What does the user need to know about contributing to the repo?"
+            message: "Who made contributions to the repo or can make contributions?"
         },
         {
             type: "input",
