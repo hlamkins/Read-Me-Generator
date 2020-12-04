@@ -8,11 +8,11 @@ function generateReadme(answers) {
 ${answers.description}
 
 ## Table of Contents
--[Description](#description)
--[Installation](#installation)  
--[Usage](#usage)
--[License](#license)  
--[Contribution](#contribution)
+-[Description](#description)\n
+-[Installation](#installation)\n 
+-[Usage](#usage)\n
+-[License](#license)\n
+-[Contribution](#contribution)\n
 -[Questions](#questions)
 
 ## Installation
