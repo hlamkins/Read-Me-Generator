@@ -22,8 +22,8 @@ ${answers.installation}
 ${answers.usage}
 
 ## License
-![badge](https://img.shields.io/badge/license-${answers.license}-lightblue)
-This application is covered by tthe ${answers.license} license.
+![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
+This application is covered by the ${answers.license} license.
 
 ## Contributing
 ${answers.contribution}
