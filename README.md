@@ -19,8 +19,8 @@ This is a generator that creates a readme markdown file for a project by answeri
 
 -[Questions](#questions)
 
-## Video of working program
-
+## Link to video of working program
+https://youtu.be/37vnhpWGjd4
 
 ## Installation
 node inquirer
