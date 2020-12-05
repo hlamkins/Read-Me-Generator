@@ -22,6 +22,9 @@ This is a generator that creates a readme markdown file for a project by answeri
 ## Installation
 node inquirer
 
+## Video of working project
+<iframe src="https://drive.google.com/file/d/1-NCdfKTLjBqwDIoL8cmpr2yDbfa8EoD8/preview" width="640" height="480"></iframe>
+
 ## Usage
 This repo is free to use
 
